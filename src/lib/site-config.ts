@@ -1,0 +1,45 @@
+import { env } from '@/env.mjs'
+
+export const siteConfig = {
+  name: 'John Doe',
+  title: 'John Doe | Front-end developer',
+  description:
+    "Hello, I'm John. I am front-end developer from Poland. I enjoy building sites and apps. My focus is React (Next.js).",
+  keywords: [
+    'John Doe',
+    'Front-end developer',
+    'Poland',
+    'React',
+    'Next.js',
+    'Web development',
+    'Front-end',
+    'UI/UX',
+    'Responsive design',
+    'JavaScript',
+    'HTML',
+    'CSS',
+    'Portfolio',
+    'Projects',
+    'Website',
+    'Web applications',
+    'Developer',
+    'Code',
+    'Programming',
+    'Tech enthusiast',
+  ],
+  creator: 'Build With Sohail',
+  url: 'https://john-doe.com',
+  contact: {
+    email: 'john@doe.com',
+    linkedin: '#',
+    github: '#',
+  },
+  links: {
+    contactForm: '/#contact',
+    linkedin: '#',
+    github: '#',
+    mailTo: 'mailto:john@doe.com',
+    cvPdf: '/john-doe-cv.pdf',
+    sohailYoutube: 'https://www.youtube.com/@buildwithsohail',
+  },
+}
